@@ -9,10 +9,10 @@ public:
   void adicionarProduto(const Produto& produto, int quantidade);
   void removerProduto(const Produto& produto, int quantidade);
   int qtdEstoque(const Produto& produto) const;
-  const std::list<Produto>& listaEstoque() const;
+  const std::list<std::pair<const Produto*, int>>& listaEstoque() const;
 
 private:
-  std::list<std::pair<Produto, int>> produtosNoEstoque;
+  std::list<std::pair<const Produto*, int>> produtosEstoque;
 };
 
 #endif

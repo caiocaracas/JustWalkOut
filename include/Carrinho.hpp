@@ -15,7 +15,7 @@ public:
   //
 
 private:
-  std::vector<Produto> produtos;
+  std::vector<const Produto*> produtos;
 };
 
 #endif
