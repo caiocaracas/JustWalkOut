@@ -8,10 +8,10 @@ class Vitrine {
 public:
   void adicionarProduto(const Produto& produto);
   void removerProduto(const Produto& produto);
-  const std::list<Produto>& obterProdutos() const;
+  const std::list<Produto*>& obterProdutos() const;
 
 private:
-  std::list<Produto> produtosNaVitrine;
+  std::list<const Produto*> produtosNaVitrine;
 };
 
 #endif
