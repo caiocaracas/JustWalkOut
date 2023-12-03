@@ -26,4 +26,4 @@ A solução proposta consiste em um sistema, que utilizaria dados provenientes d
 ![User Story](https://github.com/caiocaracas/JustWalkOut/blob/main/doc/User%20Story.png?raw=true)
 
 ##### Cartões CRC do Projeto:
-![Cartões CRC]
+![Cartões CRC](https://github.com/caiocaracas/JustWalkOut/blob/main/doc/Cart%C3%B5es%20CRC.png?raw=true)
