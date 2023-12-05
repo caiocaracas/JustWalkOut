@@ -1,5 +1,5 @@
 #include "Estoque.hpp"
-#include "Pruduto.hpp"
+#include "Produto.hpp"
 
 void Estoque::adicionarProduto(const Produto& produto, int quantidade) {
   for (auto& p : produtosEstoque) {
