@@ -1,4 +1,5 @@
 #include "Carrinho.hpp"
+#include "Produto.hpp"
 #include <iostream>
 
 Carrinho::Carrinho(Estoque& estoque) : estoque(estoque) {}
