@@ -1,4 +1,6 @@
-include "Vitrine.hpp"
+#include "Vitrine.hpp"
+#include "Produto.hpp"
+#include "Estoque.hpp"
 
 void Vitrine::adicionarProduto(const Produto& produto) {
   // Verifica se o produto já está na vitrine
