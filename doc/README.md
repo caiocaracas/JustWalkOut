@@ -17,11 +17,6 @@ A solução proposta consiste em um sistema, que utilizaria dados provenientes d
 - Compile o código-fonte utilizando o compilador C++11 ou superior.
 - Execute o programa resultante.
 
-##### Instruções de Uso:
-- [...];
-##### Principais Dificuldades:
-- [...];
-
 ##### User Story do Projeto:
 ![User Story](https://github.com/caiocaracas/JustWalkOut/blob/main/doc/User%20Story.png?raw=true)
 
